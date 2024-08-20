@@ -1,0 +1,33 @@
+format 224
+
+classcanvas 128002 class_ref 128002 // Tablero
+  classdiagramsettings member_max_width 0 end
+  xyz 58 74.6 2000
+end
+classcanvas 128130 class_ref 128130 // Casilla
+  classdiagramsettings member_max_width 0 end
+  xyz 165.4 50.2 2000
+end
+classcanvas 128258 class_ref 128258 // Agente
+  classdiagramsettings member_max_width 0 end
+  xyz 326.2 68.6 2000
+end
+classcanvas 128386 class_ref 128386 // Problema
+  classdiagramsettings member_max_width 0 end
+  xyz 456.6 71 2000
+end
+classcanvas 128514 class_ref 128514 // Camino
+  classdiagramsettings member_max_width 0 end
+  xyz 466.2 152.6 2000
+end
+relationcanvas 128642 relation_ref 128002 // <directional aggregation>
+  from ref 128130 z 2001 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128770 relation_ref 128130 // <directional aggregation>
+  from ref 128514 z 2001 to ref 128258
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

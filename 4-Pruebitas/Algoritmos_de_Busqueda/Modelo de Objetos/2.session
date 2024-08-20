@@ -1,0 +1,15 @@
+window_sizes 1280 637 320 955 485 104
+
+diagrams
+  active  classdiagram_ref 128002 // Diagrama de Clases
+    943 449 139 A4 0 0
+end
+show_stereotypes
+open
+  class_ref 128002 // Tablero
+  class_ref 128130 // Casilla
+  class_ref 128258 // Agente
+  class_ref 128386 // Problema
+  class_ref 128514 // Camino
+end
+end
